@@ -1,0 +1,51 @@
+header {
+	text-align: center;
+	background-color: white;
+}
+
+nav {
+	text-align: center;
+	background-color: gold;
+}
+
+nav ul li{
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25 px;
+}
+
+nav ul li b {
+	color: blue;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+
+h1{
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: center;
+}
+
+figure{  
+left-side: auto;
+right-side: auto;
+max-width: 500px
+}
+
+figure figcaption{
+	text-align: center;
+}
+
+footer{  
+	text-align: center;
+	background-color: gold;
+}

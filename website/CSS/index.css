@@ -1,0 +1,48 @@
+
+header {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	background-color: gold;
+}
+
+nav ul li{
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25 px;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+main p:first-child{
+	text-align: center;
+	font-size: xxx-large;
+}
+
+main p:last-of-type{
+	font-size: medium;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+main aside{
+height: 900;
+width: 800;
+text-align: center;
+}
+
+footer{  
+	text-align: center;
+	background-color: gold;
+	}

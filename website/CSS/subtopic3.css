@@ -1,0 +1,106 @@
+
+header {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	background-color: gold;
+}
+
+nav ul li{
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25 px;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li b {
+	color: blue;
+}
+
+main h1{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+main h1 p:first-child{
+	text-align: center;
+	font-size: xxx-large;
+}
+
+aside{
+	position: relative;
+	height: 900px;
+}
+
+aside p:first-child{
+	width: 25%;
+	position: relative;
+	left: 50px;
+}
+
+aside p:nth-child(2){
+		position: absolute;
+		right: 50px;
+		width: 23%;
+		top:0px;
+}
+
+aside embed:nth-child(3){
+		position: absolute;
+		top: 75px;
+		left: 50px;
+}
+
+aside embed:nth-child(4){
+	position: absolute;
+	right:55px;
+	top: 75px;
+}
+
+aside p:nth-child(5){
+	width: 25%;
+	position: absolute;
+	top: 225px;
+	left: 300px;
+}
+
+aside p:nth-child(6){
+		position: absolute;
+		right: 300px;
+		width: 25%;
+		top:225px;
+}
+
+aside figure{
+	position: absolute;
+	top: 300px;
+	left: 30%;
+}
+
+
+aside figure img{
+	width:400px;
+	height:auto;
+}
+
+aside p:nth-child(8){
+	position: absolute;
+	bottom: 0px;
+	left: 28%;
+}
+
+footer{  
+	text-align: center;
+	background-color: gold;
+}
