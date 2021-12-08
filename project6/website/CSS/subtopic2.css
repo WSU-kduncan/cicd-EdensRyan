@@ -1,0 +1,116 @@
+header {
+	text-align: center;
+	background-color: white;
+}
+
+nav {
+	text-align: center;
+	background-color: gold;
+}
+
+nav ul li{
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+nav ul li b {
+	color: blue;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+main h1 ul {
+	width: 3000px;
+	height: 620px;
+	list-style: none; 
+	position: relative;
+	animation: slideshow 12s infinite;
+}
+
+main ul li img{
+	width:500px;
+	height: 600px;
+	float:left;
+}
+
+main ul li h2{
+	font-size: small;
+}	
+  
+@keyframes slideshow {
+   0%	{left:	 +1200px%;}
+  20%	{left:	   +600px;}
+  40%	{left:	      0px;}
+  60%	{left:	   -600px;}
+  80%	{left:	  -1200px;}
+  100%	{left:    -1800px;}
+}
+
+main h1{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+main h1 figure{
+	width: 200px;
+	float: left;
+}
+
+main h1 figure img{
+	width: 100%;
+	height: autopx;
+	display: block;
+}
+
+main h1 p:first-child{
+	text-align: center;
+	font-size: xxx-large;
+}
+
+.blur{
+	filter: blur(70px);
+	-moz-filter: blur(70px);
+	-webkit-filter: blur(70px);
+}
+
+main aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;	
+}	
+
+
+aside figcaption{
+	width:200px;
+}
+
+.sepia{
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);	
+}
+
+.makeitstop:hover{
+	transform: skewY(-60deg);
+	-webkit-transform: skewY(-60deg);
+}
+
+.biggun:hover{
+	transform: transform: scale(2, 1);
+	-webkit-transform: scale(4, 3);
+}
+
+footer{  
+	text-align: center;
+	background-color: gold;
+}

@@ -1,0 +1,99 @@
+
+header {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	background-color: gold;
+}
+
+nav ul li{
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+nav ul li b {
+	color: blue;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+main {
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+main p:first-child{
+	text-align: center;
+	font-size: xxx-large;
+}
+
+main figure:nth-child(5){
+	text-align: center;
+}
+main p:nth-child(6){
+	font-family: times new roman;
+	text-align: center;
+	font-size: small;
+}
+
+main figure:nth-child(9){
+	text-align: center;
+}
+
+main p:nth-child(10){
+	font-family: times new roman;
+	text-align: center;
+	font-size: small;
+}
+
+#image1 {
+  margin: 1em auto;
+  background-image: url("../Images/firstageruins.jpg");
+  width:700px;
+  height:400px;
+  align: center;
+}
+
+
+#image1:hover {
+  background-image: url("../Images/rollover2.jpg");
+}
+
+main p:nth-child(15){
+	font-family: times new roman;
+	text-align: center;
+	font-size: small;
+}
+
+main figure:nth-child(17){
+	text-align: center;
+}
+
+main p:nth-child(18){
+	font-family: times new roman;
+	text-align: center;
+	font-size: small;
+}
+
+main p:last-child{
+	text-align: center;
+	font-size: small;
+}
+
+footer{  
+	text-align: center;
+	background-color: gold;
+}
